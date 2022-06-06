@@ -1,5 +1,5 @@
 title = 'マイナスから始めるC言語'
-baseURL = 'https://clang-lecture.watasuke.tk'
+baseURL = 'https://watasuke102.github.io/clang-lecture/'
 languageCode = 'ja-jp'
 theme = "relearn"
 
