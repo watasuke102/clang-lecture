@@ -1,0 +1,8 @@
+baseURL = 'https://clang-lecture.watasuke.tk'
+languageCode = 'ja-jp'
+title = 'マイナスから始めるC言語'
+
+theme = "relearn"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
