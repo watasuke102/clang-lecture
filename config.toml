@@ -4,13 +4,23 @@ languageCode = 'ja-jp'
 theme = "relearn"
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "PRINT", "JSON"]
+section = ["HTML", "RSS", "PRINT"]
+page = ["HTML", "RSS", "PRINT"]
 
 # theme
 [params]
-themeVariant = [ "dark", "relearn-light" ]
+  themeVariant = [ "dark", "relearn-light" ]
+  collapsibleMenu = true
 
 [markup]
   [markup.highlight]
     guessSyntax = false
     style = "monokai"
+
+# side menu
+[[menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-github'></i> GitHub"
+  identifier = "ds"
+  url = "https://github.com/watasuke102/clang-lecture"
+  weight = 10
